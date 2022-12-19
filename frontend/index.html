@@ -4,10 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BIBLIOTECA02</title>
+   <link rel="stylesheet" href="/frontend/css/index.css">
+   <style>
+
+
+
+   </style>
+
 </head>
 <body>
-    <h1>SISTEMA PARA LA GESTIÓN DE LA INFORMACIÓN DE LA BIBLIOTECA</h1>
+    <!-- heades se va a colocar titulo y menu-->
+    <header style = "background-color:white; height: 200px; width: 100%;">
+      
+        <!--caja para colocar logo-->
+        <div class="estilo-caja-logo"> 
+            <img src="img/imagen1.png" />
+                
+        </div>
+        <!-- caja para colocar titulo-->
+         
+        <div style="float:left; width: 70%; height: 200px; text-align: center;">
+            <h1>BIBLIOTECA DISTRITAL</h1>
+            <h2 class="color2">SISTEMA PARA GESTIONAR EL PRESTAMO Y DEVOLUCIÓN DE LIBROS</h2>
+        </div>
+
+               <!--caja para colocar logo-->
+        <div class="estilo-caja-logo"> 
+            <img src="img/imagen2.png" />
+                    
+        </div>
+
+    <!--xxxxxxxxxxxxxxxxxxxxxx  MENU  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+        <nav id="menu">
+
+            <ul>
+                <li style = "display:inline-block"><a href="#">LIBROS</a></li>
+                <li style = "display:inline-block"><a href="#">SOCIOS</a></li>
+                <li style = "display:inline-block"><a href="#">PRESTAMO</a></li>
+                
+            </ul>
+
+
+        </nav>
+       
+    </header>
+    <br />
+    <br />
+   
+   <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+<main style="text-align:center"> 
+    <h2 id="titulo-formulario">Registro Libro</h2>
+    <form class="formulario">
+        <label>Nombre del Libro </label>
+        <input type="text" id="nombre_libro" name="nombre_libro"/>
+        <br />  <br />
+        <label>Autor</label>
+       
+        <select id="autor">
+            <option value="1">Pablo Neruda</option>
+            <option value="2">Gabriel Garcia Marquez</option>
+            <option value="3">Juan Ignacio Pozo</option>
+        </select>
+        <br /><br />
+
+        <input type="submit" value="Guardar">
+        <button>Modificar</button>
+    </form>
     
+    <!--xxxxxxxxxxxxxxxxxxxxxxxTABLA PARA MOSTRAR LA INFORMACIÓNXXXXXXXXXXXXXXXXXXX-->
+ 
+ 
+  
+        <!-- Simple table with header -->
+    <br /><br />
+
+        <table style="margin-left:auto; margin-right:auto;">
+          <tr>
+            <th>First name</th>
+            <th>Last name</th>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+          </tr>
+          <tr>
+            <td>Jane</td>
+            <td>Doe</td>
+          </tr>
+    </table>    
+   
+
+        
+</main>  
+    <!--contenido a nivel Institucional-->
+    <flooter>
+        
+       
+    </flooter>
+
+    
+ 
+
 </body>
 </html>
