@@ -1,0 +1,51 @@
+.estilo-caja-logo{
+    float:left;
+    width: 15%;
+    height: 200px
+    }
+    
+    body{
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    h2{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .color2{
+    color:crimson
+    }
+    
+
+
+#menu{
+    text-align:center;
+ }
+
+ li{
+    display:inline-table;
+    width: 140px;
+    height: 30px;
+    background-color: crimson;
+    padding-top: 10px;
+ }
+
+ li a{
+    text-decoration: none;
+    line-height: 10px;
+    color:white
+ }
+
+ li a:hover{
+    color:chartreuse
+ }
+
+.formulario{
+    width: 40%;
+    background-color:lavender;
+    margin-left: 31%;
+}
+
+label{
+    display:inline-block
+    width:200px
+}
